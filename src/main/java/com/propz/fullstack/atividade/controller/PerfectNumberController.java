@@ -22,8 +22,8 @@ public class PerfectNumberController {
     }
 
     @PostMapping("/verify")
-    public boolean verifyPerfectNumber(@RequestBody Long number) {
-        return perfectNumberService.isPerfectNumber(number);
+    public boolean verifyPerfectNumber(@RequestBody String number) {
+        return perfectNumberService.isPerfectNumber(Long.parseLong(number));
     }
 
     @PostMapping("/range")
