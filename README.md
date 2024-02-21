@@ -1,5 +1,8 @@
 # Backend For PerfectNumberProject
 
+- Java version: `21.0.2`
+- Maven version: `3.6.3` 
+
 To be able to run the project, we must install maven to download the dependencies and have MySQL installed on the computer.
 
 Configure environment variables in the application.properties file:
