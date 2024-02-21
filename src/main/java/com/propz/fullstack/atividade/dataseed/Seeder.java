@@ -37,6 +37,5 @@ public class Seeder implements CommandLineRunner {
             perfectNumberRepository.save(perfectNumber7);
             perfectNumberRepository.save(perfectNumber8);
         }
-        System.out.println(perfectNumberRepository.count());
     }
 }
